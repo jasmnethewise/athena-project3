@@ -1,0 +1,46 @@
+@font-face {
+    src: url(fonts/PressStart2P-Regular.ttf);
+    font-family: pressStart2P;
+}
+
+
+body {
+    background-color:  black;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+
+    box-sizing: border-box;
+    box-shadow: 
+    0 -2px 10px white,
+    0 2px 10px white,
+    2px 0 10px white,
+    -2px 0 10px white;
+
+
+    
+}
+.text1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:whitesmoke;
+    font-size: 100px;
+    font-family: pressStart2P, sans-serif;
+    text-shadow:
+    -1px -1px 0 red,
+     1px -1px 0 red,
+    -1px  1px 0 red,
+     1px  1px 0  red;
+}
+.p1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 10px;
+    font-family: pressStart2P, sans-serif;
+    
+    
+
+}
