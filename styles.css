@@ -24,3 +24,114 @@ body > * {
     z-index: 1;
 }
 
+.about-me-button {
+    width: 380px;
+    position: absolute;
+    top: 130px;
+    left: 14%;
+    cursor: pointer;
+}
+.about-me {
+    z-index: 9999;
+}
+.interests-button{
+    width: 380px;
+    position: absolute;
+    top: 130px;
+    left: 30%;
+    cursor: pointer;
+    z-index: 9999;
+}
+.interests {
+    z-index: 9999;
+}
+.projects-button{
+    width: 380px;
+    position: absolute;
+    top: 130px;
+    left: 46%;
+    cursor: pointer;
+    z-index: 10;
+}
+.projects {
+    z-index: 9999;
+}
+.contacts-button{
+    width: 380px;
+    position: absolute;
+    top: 130px;
+    left: 62%;
+    cursor: pointer;
+    z-index: 10;
+}
+.contacts {
+    z-index: 9999;
+}
+.about-me-button:active {
+    transform: scale(1.1);
+}
+.interests-button:active {
+    transform: scale(1.1);
+}
+.projects-button:active {
+    transform: scale(1.1);
+}
+.contacts-button:active {
+    transform: scale(1.1);
+}
+
+.vertical-box {
+  width: 1090px;        
+  height: 1700px;       
+  border: dotted 10px #5e17eb;
+  position: absolute;
+  top: 300px;
+  left: 16.5%;
+
+}
+.vertical-box1 {
+  width: 1090px;        
+  
+  border-top: dotted 10px #5e17eb;
+  position: absolute;
+  top: 500px;
+  left: 16.5%;
+
+}
+.h1 {
+    font-family: pressStart2P, monospace;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    text-decoration: underline;
+    position: absolute;
+    top: 200px;
+    left: 3%;
+
+}
+.p1 {
+    font-family: pressStart2P, monospace;
+    color: white;
+    font-size: 25px;
+    text-align: left;
+    position: absolute;
+    top: 320px;
+    left: 3%;
+    width: 900px;
+    line-height: 1.5;
+    padding: 20px;
+    padding-right: 100px;
+}
+.p2 {
+    font-family: pressStart2P, monospace;
+    color: white;
+    font-size: 25px;
+    text-align: left;
+    position: absolute;
+    top: 1550px;
+    left: 3%;
+    width: 900px;
+    line-height: 1.5;
+    padding: 20px;
+    padding-right: 100px;
+}
