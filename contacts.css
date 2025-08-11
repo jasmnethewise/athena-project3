@@ -8,6 +8,7 @@ body {
     background-image: url(images/stars.gif); 
     background-size: 200px 200px;
     
+    
 }
 body::before {
     content: "";
@@ -18,7 +19,6 @@ body::before {
     height: 100%;
     background-color: rgba(0,0,0,0.5); 
     z-index: 0;
-    overflow-x: auto;
 }
 body > * {
     position: relative;
@@ -83,7 +83,7 @@ body > * {
 
 .vertical-box {
   width: 1090px;        
-  height: 1700px;       
+  height: 1500px;       
   border: dotted 10px #5e17eb;
   position: absolute;
   top: 300px;
@@ -109,32 +109,6 @@ body > * {
     left: 3%;
 
 }
-.p1 {
-    font-family: pressStart2P, monospace;
-    color: white;
-    font-size: 25px;
-    text-align: left;
-    position: absolute;
-    top: 320px;
-    left: 3%;
-    width: 900px;
-    line-height: 1.5;
-    padding: 20px;
-    padding-right: 100px;
-}
-.p2 {
-    font-family: pressStart2P, monospace;
-    color: white;
-    font-size: 25px;
-    text-align: left;
-    position: absolute;
-    top: 1550px;
-    left: 3%;
-    width: 900px;
-    line-height: 1.5;
-    padding: 20px;
-    padding-right: 100px;
-}
 .hh {
     font-family: pressStart2P, monospace;
     color: white;
@@ -149,14 +123,43 @@ body > * {
         2px -2px #5e17eb,
         -2px 2px 
 }
-.disk-icon {
+.insta {
+    width: 300px;
     position: absolute;
-    top: 1770px;
-    left: 64%;
-
-    width: 330px;
+    top: 400px;
+    left: 20%;
     cursor: pointer;
-    z-index: 10;
-    transform-origin: center center;
-
+    z-index: 9999;
+}
+.linked-in {
+    width: 270px;
+    position: absolute;
+    top: 415px;
+    left: 55%;
+    cursor: pointer;
+    z-index: 9999;
+}
+.slack {
+    width: 300px;
+    position: absolute;
+    top: 800px;
+    left: 20%;
+    cursor: pointer;
+    z-index: 9999;
+}
+.spotify {
+    width: 400px;
+    position: absolute;
+    top: 760px;
+    left: 50%;
+    cursor: pointer;
+    z-index: 9999;
+}
+.github {
+    width: 300px;
+    position: absolute;
+    top: 1200px;
+    left: 37%;
+    cursor: pointer;
+    z-index: 9999;
 }
