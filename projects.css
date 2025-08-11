@@ -82,7 +82,7 @@ body > * {
 
 .vertical-box {
   width: 1090px;        
-  height: 1700px;       
+  height: 800px;       
   border: dotted 10px #5e17eb;
   position: absolute;
   top: 300px;
@@ -110,8 +110,8 @@ body > * {
 }
 .p1 {
     font-family: pressStart2P, monospace;
-    color: white;
-    font-size: 25px;
+    color: orange;
+    font-size: 45px;
     text-align: left;
     position: absolute;
     top: 320px;
@@ -123,11 +123,11 @@ body > * {
 }
 .p2 {
     font-family: pressStart2P, monospace;
-    color: white;
-    font-size: 25px;
+    color: orange;
+    font-size: 45px;
     text-align: left;
     position: absolute;
-    top: 1550px;
+    top: 400px;
     left: 3%;
     width: 900px;
     line-height: 1.5;
@@ -147,4 +147,11 @@ body > * {
         -2px -2px ,
         2px -2px #5e17eb,
         -2px 2px 
+}
+.computer-gif {
+    position: absolute;
+    top: 600px;
+    left: 75%;
+    width: 200px;
+    height: auto;
 }
