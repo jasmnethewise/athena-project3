@@ -6,7 +6,7 @@ This is my portfolio! you can know more about me, my interests, see my projects,
 
 Click the about buttton to know more about me.
 Click the interests button to see my interests.
-Click the projects button to see m projects.
+Click the projects button to see my projects.
 Click the contact button to contact with me.
 
 Technologies Used:
