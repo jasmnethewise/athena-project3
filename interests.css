@@ -82,7 +82,7 @@ body > * {
 
 .vertical-box {
   width: 1090px;        
-  height: 1700px;       
+  height: 1600px;       
   border: dotted 10px #5e17eb;
   position: absolute;
   top: 300px;
@@ -250,4 +250,23 @@ body > * {
     line-height: 1.5;
     padding: 20px;
     padding-right: 100px; 
+}
+.html {
+    position: absolute;
+    top: 1500px;
+    left: 20%;
+    width: 250px;
+}
+.asexual {
+    position: absolute;
+    top: 1560px;
+    left: 45%;
+    width: 400px;
+}
+.fazbear {
+    position: absolute;
+    top: 1500px;
+    left: 45%;
+    width: 400px;
+
 }
